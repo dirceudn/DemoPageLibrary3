@@ -1,2 +1,6 @@
+include ':commonui'
+include ':common'
+include ':domain'
+include ':data'
 include ':app'
 rootProject.name = "DemoLibPage3"
