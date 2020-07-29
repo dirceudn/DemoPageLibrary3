@@ -47,5 +47,5 @@ private fun List<GithubRepository>.toRepository(): List<Repository> {
             stars = it.stars,
             url = it.url
         )
-    }
+    } .filter { it.id != null  }
 }

@@ -47,9 +47,15 @@ dependencies {
     kapt "androidx.room:room-compiler:$roomVersion"
 
     // Koin for Android
-    api 'org.koin:koin-android:2.0.1'
+    // Koin for Android
+    api "org.koin:koin-android:$koin_version"
+// Koin Android Scope features
+    api "org.koin:koin-android-scope:$koin_version"
+// Koin Android ViewModel features
+    api "org.koin:koin-android-viewmodel:$koin_version"
+// Koin Android Experimental features
+    api "org.koin:koin-android-ext:$koin_version"
     // or Koin for Lifecycle scoping
-    api 'org.koin:koin-android-scope:2.0.1'
 
     api 'com.jakewharton.timber:timber:4.7.1'
 
